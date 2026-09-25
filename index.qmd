@@ -1,0 +1,21 @@
+---
+title: "Welcome to My Website"
+---
+
+Hi! I'm Ani Shaikova, a student in AD688 Big Data and Cloud Analytics at Boston University.
+
+## PySpark example
+
+```{python}
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("demo").getOrCreate()
+spark.sparkContext.setLogLevel("ERROR")
+
+df = spark.createDataFrame(
+    [("Python", 1991), ("Spark", 2014), ("Quarto", 2022)],
+    ["tool", "year"]
+)
+df.show()
+spark.stop()
+```

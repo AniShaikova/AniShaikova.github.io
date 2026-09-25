@@ -1,0 +1,19 @@
+---
+title: "About"
+---
+
+I'm Ani Shaikova, a graduate student at Boston University.
+
+## My skills
+
+```{python}
+import matplotlib.pyplot as plt
+
+skills = ["Python", "SQL", "Spark", "Visualization"]
+level = [8, 7, 5, 7]
+
+plt.barh(skills, level)
+plt.xlabel("Self-rated level (1-10)")
+plt.title("My Data Skills")
+plt.show()
+```

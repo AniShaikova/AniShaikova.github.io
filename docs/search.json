@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Website",
+    "section": "",
+    "text": "Hi! I’m Ani Shaikova, a student in AD688 Big Data and Cloud Analytics at Boston University."
+  },
+  {
+    "objectID": "index.html#pyspark-example",
+    "href": "index.html#pyspark-example",
+    "title": "Welcome to My Website",
+    "section": "PySpark example",
+    "text": "PySpark example\n\nfrom pyspark.sql import SparkSession\n\nspark = SparkSession.builder.appName(\"demo\").getOrCreate()\nspark.sparkContext.setLogLevel(\"ERROR\")\n\ndf = spark.createDataFrame(\n    [(\"Python\", 1991), (\"Spark\", 2014), (\"Quarto\", 2022)],\n    [\"tool\", \"year\"]\n)\ndf.show()\nspark.stop()\n\nWARNING: Using incubator modules: jdk.incubator.vector\nUsing Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties\nSetting default log level to \"WARN\".\nTo adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).\n26/09/25 20:51:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n\n[Stage 0:&gt;                                                          (0 + 1) / 1]\n\n                                                                                \n\n\n+------+----+\n|  tool|year|\n+------+----+\n|Python|1991|\n| Spark|2014|\n|Quarto|2022|\n+------+----+"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Ani Shaikova, a graduate student at Boston University."
+  },
+  {
+    "objectID": "about.html#my-skills",
+    "href": "about.html#my-skills",
+    "title": "About",
+    "section": "My skills",
+    "text": "My skills\n\nimport matplotlib.pyplot as plt\n\nskills = [\"Python\", \"SQL\", \"Spark\", \"Visualization\"]\nlevel = [8, 7, 5, 7]\n\nplt.barh(skills, level)\nplt.xlabel(\"Self-rated level (1-10)\")\nplt.title(\"My Data Skills\")\nplt.show()"
+  }
+]
