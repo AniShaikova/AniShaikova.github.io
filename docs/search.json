@@ -23,15 +23,22 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Ani Shaikova",
     "section": "",
-    "text": "I’m Ani Shaikova, a graduate student at Boston University."
+    "text": "I’m a graduate student in the MS in Applied Business Analytics program at Boston University’s Metropolitan College. Originally from Kazakhstan, I come to analytics from a background in international and comparative politics, where I learned to ask good questions about institutions, economies, and people. Now I’m building the technical toolkit to answer them with data: Python, SQL, PySpark, and cloud platforms like AWS."
   },
   {
-    "objectID": "about.html#my-skills",
-    "href": "about.html#my-skills",
-    "title": "About",
-    "section": "My skills",
-    "text": "My skills\n\nimport matplotlib.pyplot as plt\n\nskills = [\"Python\", \"SQL\", \"Spark\", \"Visualization\"]\nlevel = [8, 7, 5, 7]\n\nplt.barh(skills, level)\nplt.xlabel(\"Self-rated level (1-10)\")\nplt.title(\"My Data Skills\")\nplt.show()"
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Ani Shaikova",
+    "section": "Education",
+    "text": "Education\nBoston University, Metropolitan College MS in Applied Business Analytics\nBackground: International and Comparative Politics"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "Ani Shaikova",
+    "section": "Interests",
+    "text": "Interests\nLabor market analytics · Data storytelling · Cloud and big data tools"
   }
 ]

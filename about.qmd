@@ -1,19 +1,29 @@
 ---
-title: "About"
+title: "Ani Shaikova"
+subtitle: "MS in Applied Business Analytics · Boston University"
+image: profile.jpg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 9em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/AniShaikova
+    - icon: envelope
+      text: Email
+      href: mailto:aniuser@bu.edu
 ---
 
-I'm Ani Shaikova, a graduate student at Boston University.
+I'm a graduate student in the MS in Applied Business Analytics program at Boston University's Metropolitan College. Originally from Kazakhstan, I come to analytics from a background in international and comparative politics, where I learned to ask good questions about institutions, economies, and people. Now I'm building the technical toolkit to answer them with data: Python, SQL, PySpark, and cloud platforms like AWS.
 
-## My skills
+## Education
 
-```{python}
-import matplotlib.pyplot as plt
+**Boston University, Metropolitan College**
+MS in Applied Business Analytics
 
-skills = ["Python", "SQL", "Spark", "Visualization"]
-level = [8, 7, 5, 7]
+**Background:** International and Comparative Politics
 
-plt.barh(skills, level)
-plt.xlabel("Self-rated level (1-10)")
-plt.title("My Data Skills")
-plt.show()
-```
+## Interests
+
+Labor market analytics · Data storytelling · Cloud and big data tools
