@@ -10,8 +10,16 @@ website:
         text: Home
       - href: about.qmd
         text: About
+    right:
+      - icon: github
+        href: https://github.com/AniShaikova
+      - icon: envelope
+        href: mailto:aniuser@bu.edu
+  page-footer:
+    center: "© 2026 Ani Shaikova · Built with Quarto"
 
 format:
   html:
-    theme: cosmo
-    toc: true
+    theme: litera
+    css: styles.css
+    toc: false

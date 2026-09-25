@@ -2,16 +2,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to My Website",
+    "title": "Hi, I’m Ani",
     "section": "",
-    "text": "Hi! I’m Ani Shaikova, a student in AD688 Big Data and Cloud Analytics at Boston University."
+    "text": "Welcome to my corner of the internet! I use this site to share my coursework and projects in big data, cloud computing, and business analytics."
   },
   {
-    "objectID": "index.html#pyspark-example",
-    "href": "index.html#pyspark-example",
-    "title": "Welcome to My Website",
-    "section": "PySpark example",
-    "text": "PySpark example\n\nfrom pyspark.sql import SparkSession\n\nspark = SparkSession.builder.appName(\"demo\").getOrCreate()\nspark.sparkContext.setLogLevel(\"ERROR\")\n\ndf = spark.createDataFrame(\n    [(\"Python\", 1991), (\"Spark\", 2014), (\"Quarto\", 2022)],\n    [\"tool\", \"year\"]\n)\ndf.show()\nspark.stop()\n\nWARNING: Using incubator modules: jdk.incubator.vector\nUsing Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties\nSetting default log level to \"WARN\".\nTo adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).\n26/09/25 20:51:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n\n[Stage 0:&gt;                                                          (0 + 1) / 1]\n\n                                                                                \n\n\n+------+----+\n|  tool|year|\n+------+----+\n|Python|1991|\n| Spark|2014|\n|Quarto|2022|\n+------+----+"
+    "objectID": "index.html#what-youll-find-here",
+    "href": "index.html#what-youll-find-here",
+    "title": "Hi, I’m Ani",
+    "section": "What you’ll find here",
+    "text": "What you’ll find here\n\nProjects from AD688 Big Data and Cloud Analytics for Business\nAnalyses of labor market data from the Met Career Compass dataset\nNotes on tools I’m learning: Python, PySpark, AWS, and Quarto"
+  },
+  {
+    "objectID": "index.html#pyspark-demo",
+    "href": "index.html#pyspark-demo",
+    "title": "Hi, I’m Ani",
+    "section": "PySpark demo",
+    "text": "PySpark demo\nA small example running on my AWS EC2 instance:\n\nfrom pyspark.sql import SparkSession\n\nspark = (SparkSession.builder\n         .appName(\"demo\")\n         .config(\"spark.ui.showConsoleProgress\", \"false\")\n         .getOrCreate())\nspark.sparkContext.setLogLevel(\"ERROR\")\n\ndf = spark.createDataFrame(\n    [(\"Python\", 1991), (\"Spark\", 2014), (\"Quarto\", 2022)],\n    [\"tool\", \"year\"]\n)\ndf.show()\nspark.stop()\n\n+------+----+\n|  tool|year|\n+------+----+\n|Python|1991|\n| Spark|2014|\n|Quarto|2022|\n+------+----+"
   },
   {
     "objectID": "about.html",

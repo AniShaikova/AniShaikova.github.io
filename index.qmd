@@ -1,15 +1,28 @@
 ---
-title: "Welcome to My Website"
+title: "Hi, I'm Ani"
+subtitle: "Graduate student · MS in Applied Business Analytics · Boston University"
 ---
 
-Hi! I'm Ani Shaikova, a student in AD688 Big Data and Cloud Analytics at Boston University.
+Welcome to my corner of the internet! I use this site to share my coursework and projects in big data, cloud computing, and business analytics.
 
-## PySpark example
+## What you'll find here
+
+- **Projects** from AD688 Big Data and Cloud Analytics for Business
+- Analyses of labor market data from the **Met Career Compass** dataset
+- Notes on tools I'm learning: Python, PySpark, AWS, and Quarto
+
+## PySpark demo
+
+A small example running on my AWS EC2 instance:
 
 ```{python}
+#| warning: false
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.appName("demo").getOrCreate()
+spark = (SparkSession.builder
+         .appName("demo")
+         .config("spark.ui.showConsoleProgress", "false")
+         .getOrCreate())
 spark.sparkContext.setLogLevel("ERROR")
 
 df = spark.createDataFrame(
