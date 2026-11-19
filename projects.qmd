@@ -5,7 +5,7 @@ title: "Projects"
 ::: {.project-card}
 ### Labor Market Analysis — Met Career Compass
 
-![](images/project-jobs.svg){fig-alt="Bar chart illustration of job postings by industry"}
+![](project-jobs.svg){fig-alt="Bar chart illustration of job postings by industry"}
 
 Analysis of job-posting data to understand which skills and industries drive demand for analytics roles, with visualizations of the key findings.
 
@@ -17,7 +17,7 @@ Analysis of job-posting data to understand which skills and industries drive dem
 ::: {.project-card}
 ### PySpark on AWS EC2
 
-![](images/project-spark.svg){fig-alt="Diagram of PySpark running on an EC2 instance"}
+![](project-spark.svg){fig-alt="Diagram of PySpark running on an EC2 instance"}
 
 Set up an Amazon EC2 instance and ran PySpark jobs on a remote Jupyter server.
 
@@ -29,7 +29,7 @@ Set up an Amazon EC2 instance and ran PySpark jobs on a remote Jupyter server.
 ::: {.project-card}
 ### Scalable Web Architecture on AWS
 
-![](images/project-aws.svg){fig-alt="Architecture diagram with a load balancer, auto scaling group and database"}
+![](project-aws.svg){fig-alt="Architecture diagram with a load balancer, auto scaling group and database"}
 
 Built a highly available architecture in AWS Academy: VPC, load balancer, Auto Scaling group, and a Multi-AZ RDS database.
 
