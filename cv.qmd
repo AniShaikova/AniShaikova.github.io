@@ -4,6 +4,6 @@ title: "CV"
 
 Graduate student in Applied Business Analytics at Boston University with experience in data analysis, business intelligence, and research.
 
-[Download my CV (PDF)](files/Anel_Shaikova_CV.pdf){.btn-cta download="Anel_Shaikova_CV.pdf"}
+[Download my CV (PDF)](Anel_Shaikova_CV.pdf){.btn-cta download="Anel_Shaikova_CV.pdf"}
 
-<iframe src="files/Anel_Shaikova_CV.pdf" width="100%" height="850px" style="border:1px solid #e3e7ef;border-radius:12px;margin-top:1.5rem;"></iframe>
+<iframe src="Anel_Shaikova_CV.pdf" width="100%" height="850px" style="border:1px solid #e3e7ef;border-radius:12px;margin-top:1.5rem;"></iframe>
