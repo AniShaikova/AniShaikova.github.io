@@ -1,0 +1,33 @@
+---
+title: "Contact"
+---
+
+I'm always happy to connect about data analytics, cloud computing, internships, and full-time opportunities. The best way to reach me is by email or LinkedIn.
+
+::: {.contact-grid}
+[[Email]{.label} aniuser@bu.edu](mailto:aniuser@bu.edu)
+
+[[LinkedIn]{.label} Connect with me](https://www.linkedin.com/in/anelshaikova/)
+
+[[GitHub]{.label} github.com/AniShaikova](https://github.com/AniShaikova)
+
+[[Location]{.label} Boston, MA]{}
+:::
+
+## Send me a message
+
+<form action="https://formspree.io/f/mgakybvl" method="POST" style="max-width:560px;">
+  <div class="mb-3">
+    <label class="form-label" for="name">Name</label>
+    <input class="form-control" type="text" id="name" name="name" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="email">Email</label>
+    <input class="form-control" type="email" id="email" name="email" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="message">Message</label>
+    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+  </div>
+  <button class="btn-cta" type="submit" style="border:none;">Send</button>
+</form>

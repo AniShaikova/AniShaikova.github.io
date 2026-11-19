@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" font-family="Arial"><rect width="640" height="220" rx="12" fill="#f5f7fc"/>
+<rect x="30" y="70" width="150" height="80" rx="10" fill="#fff" stroke="#2f5bea" stroke-width="2"/><text x="105" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2a44">Laptop</text><text x="105" y="127" text-anchor="middle" font-size="12" fill="#5a6478">VS Code · SSH</text>
+<line x1="180" y1="110" x2="250" y2="110" stroke="#2f5bea" stroke-width="3" marker-end="url(#a)"/>
+<rect x="250" y="40" width="360" height="140" rx="12" fill="#fff" stroke="#ff9900" stroke-width="2"/><text x="270" y="66" font-size="14" font-weight="700" fill="#ff9900">AWS EC2 instance</text>
+<rect x="275" y="85" width="140" height="70" rx="8" fill="#eef2ff"/><text x="345" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="#2f5bea">Jupyter</text>
+<rect x="445" y="85" width="140" height="70" rx="8" fill="#fff4e5"/><text x="515" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="#e25a1c">PySpark</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f5bea"/></marker></defs></svg>

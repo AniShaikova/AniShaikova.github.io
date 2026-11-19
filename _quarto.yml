@@ -10,9 +10,17 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
     right:
       - icon: github
         href: https://github.com/AniShaikova
+      - icon: linkedin
+        href: https://www.linkedin.com/in/anelshaikova/
       - icon: envelope
         href: mailto:aniuser@bu.edu
   page-footer:
@@ -21,5 +29,5 @@ website:
 format:
   html:
     theme: litera
-    css: styles.css
+    css: [styles.css, custom.css]
     toc: false
